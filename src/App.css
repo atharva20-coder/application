@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 25%;
+  margin: 0;
+  padding: 2rem;
+  padding-top: 8rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75%;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 2px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-star-to-delta {
+  background-color: #5d6d7e; /* dark pastel blue */
+  color: white;
+}
+
+.btn-delta-to-star {
+  background-color: #c0392b; /* dark pastel red */
+  color: white;
+}
+
+.btn-performance-metrics {
+  background-color: #27ae60; /* dark pastel green */
+  color: white;
+}
+
+.btn-dec-to-hex-oct-bin-2comp {
+  background-color: #8e44ad; /* dark pastel purple */
+  color: white;
+}
