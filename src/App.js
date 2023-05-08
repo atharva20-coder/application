@@ -4,6 +4,7 @@ import StarToDelta from "./components/StarToDelta";
 import DeltaToStar from "./components/DeltaToStar";
 import PerformanceMetrics from "./components/performanceMatrics";
 import DecToHexOctBin2Comp from "./components/DecToHexOctBin2Comp";
+import TransformerConversion from "./components/transformerConversion";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,14 @@ function App() {
               <li>
                 <a className="btn-delta-to-star" href="/delta-to-star">
                   Delta to Star
+                </a>
+              </li>
+              <li>
+                <a
+                  className="btn-transformerDesign"
+                  href="/transformerConversion"
+                >
+                  Primary ⇔ Secondary converter
                 </a>
               </li>
               <li>
@@ -54,6 +63,10 @@ function App() {
             <Route
               path="/performance-metrics"
               element={<PerformanceMetrics />}
+            />
+            <Route
+              path="/transformerConversion"
+              element={<TransformerConversion />}
             />
           </Routes>
         </div>
